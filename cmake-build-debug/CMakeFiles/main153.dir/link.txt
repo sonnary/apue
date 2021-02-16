@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main153.dir/Chapter-01/1.5.3.c.o  -o main153 

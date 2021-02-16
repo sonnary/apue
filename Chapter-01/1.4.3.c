@@ -1,6 +1,7 @@
-#include "apue.h"
+#include "../apue.3e/include/apue.h"
 
 #include <dirent.h>
+# include"error.c"
 
 int main(int argc, char *argv[]) {
     DIR *dp;
@@ -12,7 +13,7 @@ int main(int argc, char *argv[]) {
     if ((dp = opendir(argv[1])) == NULL)
         err_sys("can't open %s", argv[1]);
     while ((dirp = readdir(dp)) != NULL)
-        printf("%s\n", dirp->d_name);
+        printf("%10s %10d\n", dirp->d_name, dirp->d_type);
     closedir(dp);
     exit(0);
 }

@@ -1,0 +1,4 @@
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles/main153.dir
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles/main143.dir
