@@ -17,6 +17,226 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp9fread">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp9fread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp9fread"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp9fread/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp9fread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp9fread/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp8getc">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp8getc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp8getc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp8getc/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp8getc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp8getc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp5fopen">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp5fopen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp5fopen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp5fopen/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp5fopen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp5fopen/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp8getccount">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp8getccount" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp8getccount"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainp8getccount/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/mainp8getccount" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainp8getccount/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main48">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main48" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main48"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main48/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main48" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main48/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +247,589 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug"/>
-				<Option type="4"/>
+			<Target title="main49">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main49" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main49"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main49/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main49" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main49/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main362">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main362" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main362"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main362/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main362" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main362/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main17">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main17"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main17/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main17/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main254">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main254" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main254"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main254/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main254" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main254/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main18">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main18"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main18/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main18/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main251">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main251" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main251"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main251/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main251" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main251/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main314">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main314" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main314"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main314/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main314" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main314/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main162">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main162" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main162"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main162/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main162" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main162/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main19">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main19"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main19/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main19/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main39">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main39" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main39"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main39/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main39" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main39/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main312">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main312" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main312"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main312/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main312" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main312/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main154">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main154" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main154"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main154/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main154" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main154/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main163">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main163" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main163"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main163/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main163" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main163/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main43">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main43" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main43"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main43/fast">
+				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main43" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main43/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,54 +877,66 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main143">
-				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main143" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main143"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main143/fast">
-				<Option output="/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/main143" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 main143/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
-		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.4.3.c">
-			<Option target="main143"/>
-		</Unit>
 		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.5.3.c">
 			<Option target="main153"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.5.4.c">
+			<Option target="main154"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.6.2.c">
+			<Option target="main162"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.6.3.c">
+			<Option target="main163"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.7.c">
+			<Option target="main17"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.8.c">
+			<Option target="main18"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.9.c">
+			<Option target="main19"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-02/2.5.1.c">
+			<Option target="main251"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-02/2.5.4.c">
+			<Option target="main254"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-03/3.12.c">
+			<Option target="main312"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-03/3.14.c">
+			<Option target="main314"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-03/3.6.2.c">
+			<Option target="main362"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-03/3.9.c">
+			<Option target="main39"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-04/4.3.c">
+			<Option target="main43"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-04/4.8.c">
+			<Option target="main48"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-04/4.9.c">
+			<Option target="main49"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p5-fopen.c">
+			<Option target="mainp5fopen"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p8-fgetc.c">
+			<Option target="mainp8getc"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p8-fgetccount.c">
+			<Option target="mainp8getccount"/>
+		</Unit>
+		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p9-fread.c">
+			<Option target="mainp9fread"/>
 		</Unit>
 		<Unit filename="/Users/sunyuchuan/go/src/github.com/sonnary/apue/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

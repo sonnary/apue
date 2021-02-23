@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.8.c
+../apue.3e/include/apue.h
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/apue.3e/include/apue.h
+
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/apue.3e/include/apue.h
+errno.h
+-
+stdarg.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/termios.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+

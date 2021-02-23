@@ -1,4 +1,16 @@
 "/Users/sunyuchuan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sunyuchuan/go/src/github.com/sonnary/apue
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug
+CMake Error at CMakeLists.txt:29 (add_executable):
+  Cannot find source file:
+
+    y/p9-gets.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:29 (add_executable):
+  No SOURCES given to target: mainp9gets
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

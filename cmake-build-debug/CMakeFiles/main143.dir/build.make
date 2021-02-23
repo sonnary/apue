@@ -57,27 +57,27 @@ include CMakeFiles/main143.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main143.dir/flags.make
 
-CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o: CMakeFiles/main143.dir/flags.make
-CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o: ../Chapter-01/1.4.3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o   -c /Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.4.3.c
+CMakeFiles/main143.dir/y/p5-fopen.c.o: CMakeFiles/main143.dir/flags.make
+CMakeFiles/main143.dir/y/p5-fopen.c.o: ../y/p5-fopen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main143.dir/y/p5-fopen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main143.dir/y/p5-fopen.c.o   -c /Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p5-fopen.c
 
-CMakeFiles/main143.dir/Chapter-01/1.4.3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main143.dir/Chapter-01/1.4.3.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.4.3.c > CMakeFiles/main143.dir/Chapter-01/1.4.3.c.i
+CMakeFiles/main143.dir/y/p5-fopen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main143.dir/y/p5-fopen.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p5-fopen.c > CMakeFiles/main143.dir/y/p5-fopen.c.i
 
-CMakeFiles/main143.dir/Chapter-01/1.4.3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main143.dir/Chapter-01/1.4.3.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.4.3.c -o CMakeFiles/main143.dir/Chapter-01/1.4.3.c.s
+CMakeFiles/main143.dir/y/p5-fopen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main143.dir/y/p5-fopen.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p5-fopen.c -o CMakeFiles/main143.dir/y/p5-fopen.c.s
 
 # Object files for target main143
 main143_OBJECTS = \
-"CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o"
+"CMakeFiles/main143.dir/y/p5-fopen.c.o"
 
 # External object files for target main143
 main143_EXTERNAL_OBJECTS =
 
-main143: CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o
+main143: CMakeFiles/main143.dir/y/p5-fopen.c.o
 main143: CMakeFiles/main143.dir/build.make
 main143: CMakeFiles/main143.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main143"

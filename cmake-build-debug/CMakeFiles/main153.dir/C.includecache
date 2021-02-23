@@ -9,6 +9,16 @@
 /Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.5.3.c
 ../apue.3e/include/apue.h
 /Users/sunyuchuan/go/src/github.com/sonnary/apue/apue.3e/include/apue.h
+error.c
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/error.c
+
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/error.c
+../apue.3e/include/apue.h
+/Users/sunyuchuan/go/src/github.com/sonnary/apue/apue.3e/include/apue.h
+errno.h
+-
+stdarg.h
+-
 
 /Users/sunyuchuan/go/src/github.com/sonnary/apue/apue.3e/include/apue.h
 sys/types.h

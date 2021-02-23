@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/sunyuchuan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/sunyuchuan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,253 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named mainp9fread
+
+# Build rule for target.
+mainp9fread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainp9fread
+.PHONY : mainp9fread
+
+# fast build rule for target.
+mainp9fread/fast:
+	$(MAKE) -f CMakeFiles/mainp9fread.dir/build.make CMakeFiles/mainp9fread.dir/build
+.PHONY : mainp9fread/fast
+
+#=============================================================================
+# Target rules for targets named mainp8getc
+
+# Build rule for target.
+mainp8getc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainp8getc
+.PHONY : mainp8getc
+
+# fast build rule for target.
+mainp8getc/fast:
+	$(MAKE) -f CMakeFiles/mainp8getc.dir/build.make CMakeFiles/mainp8getc.dir/build
+.PHONY : mainp8getc/fast
+
+#=============================================================================
+# Target rules for targets named mainp5fopen
+
+# Build rule for target.
+mainp5fopen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainp5fopen
+.PHONY : mainp5fopen
+
+# fast build rule for target.
+mainp5fopen/fast:
+	$(MAKE) -f CMakeFiles/mainp5fopen.dir/build.make CMakeFiles/mainp5fopen.dir/build
+.PHONY : mainp5fopen/fast
+
+#=============================================================================
+# Target rules for targets named mainp8getccount
+
+# Build rule for target.
+mainp8getccount: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainp8getccount
+.PHONY : mainp8getccount
+
+# fast build rule for target.
+mainp8getccount/fast:
+	$(MAKE) -f CMakeFiles/mainp8getccount.dir/build.make CMakeFiles/mainp8getccount.dir/build
+.PHONY : mainp8getccount/fast
+
+#=============================================================================
+# Target rules for targets named main48
+
+# Build rule for target.
+main48: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main48
+.PHONY : main48
+
+# fast build rule for target.
+main48/fast:
+	$(MAKE) -f CMakeFiles/main48.dir/build.make CMakeFiles/main48.dir/build
+.PHONY : main48/fast
+
+#=============================================================================
+# Target rules for targets named main49
+
+# Build rule for target.
+main49: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main49
+.PHONY : main49
+
+# fast build rule for target.
+main49/fast:
+	$(MAKE) -f CMakeFiles/main49.dir/build.make CMakeFiles/main49.dir/build
+.PHONY : main49/fast
+
+#=============================================================================
+# Target rules for targets named main362
+
+# Build rule for target.
+main362: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main362
+.PHONY : main362
+
+# fast build rule for target.
+main362/fast:
+	$(MAKE) -f CMakeFiles/main362.dir/build.make CMakeFiles/main362.dir/build
+.PHONY : main362/fast
+
+#=============================================================================
+# Target rules for targets named main17
+
+# Build rule for target.
+main17: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main17
+.PHONY : main17
+
+# fast build rule for target.
+main17/fast:
+	$(MAKE) -f CMakeFiles/main17.dir/build.make CMakeFiles/main17.dir/build
+.PHONY : main17/fast
+
+#=============================================================================
+# Target rules for targets named main254
+
+# Build rule for target.
+main254: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main254
+.PHONY : main254
+
+# fast build rule for target.
+main254/fast:
+	$(MAKE) -f CMakeFiles/main254.dir/build.make CMakeFiles/main254.dir/build
+.PHONY : main254/fast
+
+#=============================================================================
+# Target rules for targets named main18
+
+# Build rule for target.
+main18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main18
+.PHONY : main18
+
+# fast build rule for target.
+main18/fast:
+	$(MAKE) -f CMakeFiles/main18.dir/build.make CMakeFiles/main18.dir/build
+.PHONY : main18/fast
+
+#=============================================================================
+# Target rules for targets named main251
+
+# Build rule for target.
+main251: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main251
+.PHONY : main251
+
+# fast build rule for target.
+main251/fast:
+	$(MAKE) -f CMakeFiles/main251.dir/build.make CMakeFiles/main251.dir/build
+.PHONY : main251/fast
+
+#=============================================================================
+# Target rules for targets named main314
+
+# Build rule for target.
+main314: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main314
+.PHONY : main314
+
+# fast build rule for target.
+main314/fast:
+	$(MAKE) -f CMakeFiles/main314.dir/build.make CMakeFiles/main314.dir/build
+.PHONY : main314/fast
+
+#=============================================================================
+# Target rules for targets named main162
+
+# Build rule for target.
+main162: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main162
+.PHONY : main162
+
+# fast build rule for target.
+main162/fast:
+	$(MAKE) -f CMakeFiles/main162.dir/build.make CMakeFiles/main162.dir/build
+.PHONY : main162/fast
+
+#=============================================================================
+# Target rules for targets named main19
+
+# Build rule for target.
+main19: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main19
+.PHONY : main19
+
+# fast build rule for target.
+main19/fast:
+	$(MAKE) -f CMakeFiles/main19.dir/build.make CMakeFiles/main19.dir/build
+.PHONY : main19/fast
+
+#=============================================================================
+# Target rules for targets named main39
+
+# Build rule for target.
+main39: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main39
+.PHONY : main39
+
+# fast build rule for target.
+main39/fast:
+	$(MAKE) -f CMakeFiles/main39.dir/build.make CMakeFiles/main39.dir/build
+.PHONY : main39/fast
+
+#=============================================================================
+# Target rules for targets named main312
+
+# Build rule for target.
+main312: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main312
+.PHONY : main312
+
+# fast build rule for target.
+main312/fast:
+	$(MAKE) -f CMakeFiles/main312.dir/build.make CMakeFiles/main312.dir/build
+.PHONY : main312/fast
+
+#=============================================================================
+# Target rules for targets named main154
+
+# Build rule for target.
+main154: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main154
+.PHONY : main154
+
+# fast build rule for target.
+main154/fast:
+	$(MAKE) -f CMakeFiles/main154.dir/build.make CMakeFiles/main154.dir/build
+.PHONY : main154/fast
+
+#=============================================================================
+# Target rules for targets named main163
+
+# Build rule for target.
+main163: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main163
+.PHONY : main163
+
+# fast build rule for target.
+main163/fast:
+	$(MAKE) -f CMakeFiles/main163.dir/build.make CMakeFiles/main163.dir/build
+.PHONY : main163/fast
+
+#=============================================================================
+# Target rules for targets named main43
+
+# Build rule for target.
+main43: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main43
+.PHONY : main43
+
+# fast build rule for target.
+main43/fast:
+	$(MAKE) -f CMakeFiles/main43.dir/build.make CMakeFiles/main43.dir/build
+.PHONY : main43/fast
+
+#=============================================================================
 # Target rules for targets named main153
 
 # Build rule for target.
@@ -122,46 +369,6 @@ main153: cmake_check_build_system
 main153/fast:
 	$(MAKE) -f CMakeFiles/main153.dir/build.make CMakeFiles/main153.dir/build
 .PHONY : main153/fast
-
-#=============================================================================
-# Target rules for targets named main143
-
-# Build rule for target.
-main143: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main143
-.PHONY : main143
-
-# fast build rule for target.
-main143/fast:
-	$(MAKE) -f CMakeFiles/main143.dir/build.make CMakeFiles/main143.dir/build
-.PHONY : main143/fast
-
-Chapter-01/1.4.3.o: Chapter-01/1.4.3.c.o
-
-.PHONY : Chapter-01/1.4.3.o
-
-# target to build an object file
-Chapter-01/1.4.3.c.o:
-	$(MAKE) -f CMakeFiles/main143.dir/build.make CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o
-.PHONY : Chapter-01/1.4.3.c.o
-
-Chapter-01/1.4.3.i: Chapter-01/1.4.3.c.i
-
-.PHONY : Chapter-01/1.4.3.i
-
-# target to preprocess a source file
-Chapter-01/1.4.3.c.i:
-	$(MAKE) -f CMakeFiles/main143.dir/build.make CMakeFiles/main143.dir/Chapter-01/1.4.3.c.i
-.PHONY : Chapter-01/1.4.3.c.i
-
-Chapter-01/1.4.3.s: Chapter-01/1.4.3.c.s
-
-.PHONY : Chapter-01/1.4.3.s
-
-# target to generate assembly for a file
-Chapter-01/1.4.3.c.s:
-	$(MAKE) -f CMakeFiles/main143.dir/build.make CMakeFiles/main143.dir/Chapter-01/1.4.3.c.s
-.PHONY : Chapter-01/1.4.3.c.s
 
 Chapter-01/1.5.3.o: Chapter-01/1.5.3.c.o
 
@@ -190,22 +397,607 @@ Chapter-01/1.5.3.c.s:
 	$(MAKE) -f CMakeFiles/main153.dir/build.make CMakeFiles/main153.dir/Chapter-01/1.5.3.c.s
 .PHONY : Chapter-01/1.5.3.c.s
 
+Chapter-01/1.5.4.o: Chapter-01/1.5.4.c.o
+
+.PHONY : Chapter-01/1.5.4.o
+
+# target to build an object file
+Chapter-01/1.5.4.c.o:
+	$(MAKE) -f CMakeFiles/main154.dir/build.make CMakeFiles/main154.dir/Chapter-01/1.5.4.c.o
+.PHONY : Chapter-01/1.5.4.c.o
+
+Chapter-01/1.5.4.i: Chapter-01/1.5.4.c.i
+
+.PHONY : Chapter-01/1.5.4.i
+
+# target to preprocess a source file
+Chapter-01/1.5.4.c.i:
+	$(MAKE) -f CMakeFiles/main154.dir/build.make CMakeFiles/main154.dir/Chapter-01/1.5.4.c.i
+.PHONY : Chapter-01/1.5.4.c.i
+
+Chapter-01/1.5.4.s: Chapter-01/1.5.4.c.s
+
+.PHONY : Chapter-01/1.5.4.s
+
+# target to generate assembly for a file
+Chapter-01/1.5.4.c.s:
+	$(MAKE) -f CMakeFiles/main154.dir/build.make CMakeFiles/main154.dir/Chapter-01/1.5.4.c.s
+.PHONY : Chapter-01/1.5.4.c.s
+
+Chapter-01/1.6.2.o: Chapter-01/1.6.2.c.o
+
+.PHONY : Chapter-01/1.6.2.o
+
+# target to build an object file
+Chapter-01/1.6.2.c.o:
+	$(MAKE) -f CMakeFiles/main162.dir/build.make CMakeFiles/main162.dir/Chapter-01/1.6.2.c.o
+.PHONY : Chapter-01/1.6.2.c.o
+
+Chapter-01/1.6.2.i: Chapter-01/1.6.2.c.i
+
+.PHONY : Chapter-01/1.6.2.i
+
+# target to preprocess a source file
+Chapter-01/1.6.2.c.i:
+	$(MAKE) -f CMakeFiles/main162.dir/build.make CMakeFiles/main162.dir/Chapter-01/1.6.2.c.i
+.PHONY : Chapter-01/1.6.2.c.i
+
+Chapter-01/1.6.2.s: Chapter-01/1.6.2.c.s
+
+.PHONY : Chapter-01/1.6.2.s
+
+# target to generate assembly for a file
+Chapter-01/1.6.2.c.s:
+	$(MAKE) -f CMakeFiles/main162.dir/build.make CMakeFiles/main162.dir/Chapter-01/1.6.2.c.s
+.PHONY : Chapter-01/1.6.2.c.s
+
+Chapter-01/1.6.3.o: Chapter-01/1.6.3.c.o
+
+.PHONY : Chapter-01/1.6.3.o
+
+# target to build an object file
+Chapter-01/1.6.3.c.o:
+	$(MAKE) -f CMakeFiles/main163.dir/build.make CMakeFiles/main163.dir/Chapter-01/1.6.3.c.o
+.PHONY : Chapter-01/1.6.3.c.o
+
+Chapter-01/1.6.3.i: Chapter-01/1.6.3.c.i
+
+.PHONY : Chapter-01/1.6.3.i
+
+# target to preprocess a source file
+Chapter-01/1.6.3.c.i:
+	$(MAKE) -f CMakeFiles/main163.dir/build.make CMakeFiles/main163.dir/Chapter-01/1.6.3.c.i
+.PHONY : Chapter-01/1.6.3.c.i
+
+Chapter-01/1.6.3.s: Chapter-01/1.6.3.c.s
+
+.PHONY : Chapter-01/1.6.3.s
+
+# target to generate assembly for a file
+Chapter-01/1.6.3.c.s:
+	$(MAKE) -f CMakeFiles/main163.dir/build.make CMakeFiles/main163.dir/Chapter-01/1.6.3.c.s
+.PHONY : Chapter-01/1.6.3.c.s
+
+Chapter-01/1.7.o: Chapter-01/1.7.c.o
+
+.PHONY : Chapter-01/1.7.o
+
+# target to build an object file
+Chapter-01/1.7.c.o:
+	$(MAKE) -f CMakeFiles/main17.dir/build.make CMakeFiles/main17.dir/Chapter-01/1.7.c.o
+.PHONY : Chapter-01/1.7.c.o
+
+Chapter-01/1.7.i: Chapter-01/1.7.c.i
+
+.PHONY : Chapter-01/1.7.i
+
+# target to preprocess a source file
+Chapter-01/1.7.c.i:
+	$(MAKE) -f CMakeFiles/main17.dir/build.make CMakeFiles/main17.dir/Chapter-01/1.7.c.i
+.PHONY : Chapter-01/1.7.c.i
+
+Chapter-01/1.7.s: Chapter-01/1.7.c.s
+
+.PHONY : Chapter-01/1.7.s
+
+# target to generate assembly for a file
+Chapter-01/1.7.c.s:
+	$(MAKE) -f CMakeFiles/main17.dir/build.make CMakeFiles/main17.dir/Chapter-01/1.7.c.s
+.PHONY : Chapter-01/1.7.c.s
+
+Chapter-01/1.8.o: Chapter-01/1.8.c.o
+
+.PHONY : Chapter-01/1.8.o
+
+# target to build an object file
+Chapter-01/1.8.c.o:
+	$(MAKE) -f CMakeFiles/main18.dir/build.make CMakeFiles/main18.dir/Chapter-01/1.8.c.o
+.PHONY : Chapter-01/1.8.c.o
+
+Chapter-01/1.8.i: Chapter-01/1.8.c.i
+
+.PHONY : Chapter-01/1.8.i
+
+# target to preprocess a source file
+Chapter-01/1.8.c.i:
+	$(MAKE) -f CMakeFiles/main18.dir/build.make CMakeFiles/main18.dir/Chapter-01/1.8.c.i
+.PHONY : Chapter-01/1.8.c.i
+
+Chapter-01/1.8.s: Chapter-01/1.8.c.s
+
+.PHONY : Chapter-01/1.8.s
+
+# target to generate assembly for a file
+Chapter-01/1.8.c.s:
+	$(MAKE) -f CMakeFiles/main18.dir/build.make CMakeFiles/main18.dir/Chapter-01/1.8.c.s
+.PHONY : Chapter-01/1.8.c.s
+
+Chapter-01/1.9.o: Chapter-01/1.9.c.o
+
+.PHONY : Chapter-01/1.9.o
+
+# target to build an object file
+Chapter-01/1.9.c.o:
+	$(MAKE) -f CMakeFiles/main19.dir/build.make CMakeFiles/main19.dir/Chapter-01/1.9.c.o
+.PHONY : Chapter-01/1.9.c.o
+
+Chapter-01/1.9.i: Chapter-01/1.9.c.i
+
+.PHONY : Chapter-01/1.9.i
+
+# target to preprocess a source file
+Chapter-01/1.9.c.i:
+	$(MAKE) -f CMakeFiles/main19.dir/build.make CMakeFiles/main19.dir/Chapter-01/1.9.c.i
+.PHONY : Chapter-01/1.9.c.i
+
+Chapter-01/1.9.s: Chapter-01/1.9.c.s
+
+.PHONY : Chapter-01/1.9.s
+
+# target to generate assembly for a file
+Chapter-01/1.9.c.s:
+	$(MAKE) -f CMakeFiles/main19.dir/build.make CMakeFiles/main19.dir/Chapter-01/1.9.c.s
+.PHONY : Chapter-01/1.9.c.s
+
+Chapter-02/2.5.1.o: Chapter-02/2.5.1.c.o
+
+.PHONY : Chapter-02/2.5.1.o
+
+# target to build an object file
+Chapter-02/2.5.1.c.o:
+	$(MAKE) -f CMakeFiles/main251.dir/build.make CMakeFiles/main251.dir/Chapter-02/2.5.1.c.o
+.PHONY : Chapter-02/2.5.1.c.o
+
+Chapter-02/2.5.1.i: Chapter-02/2.5.1.c.i
+
+.PHONY : Chapter-02/2.5.1.i
+
+# target to preprocess a source file
+Chapter-02/2.5.1.c.i:
+	$(MAKE) -f CMakeFiles/main251.dir/build.make CMakeFiles/main251.dir/Chapter-02/2.5.1.c.i
+.PHONY : Chapter-02/2.5.1.c.i
+
+Chapter-02/2.5.1.s: Chapter-02/2.5.1.c.s
+
+.PHONY : Chapter-02/2.5.1.s
+
+# target to generate assembly for a file
+Chapter-02/2.5.1.c.s:
+	$(MAKE) -f CMakeFiles/main251.dir/build.make CMakeFiles/main251.dir/Chapter-02/2.5.1.c.s
+.PHONY : Chapter-02/2.5.1.c.s
+
+Chapter-02/2.5.4.o: Chapter-02/2.5.4.c.o
+
+.PHONY : Chapter-02/2.5.4.o
+
+# target to build an object file
+Chapter-02/2.5.4.c.o:
+	$(MAKE) -f CMakeFiles/main254.dir/build.make CMakeFiles/main254.dir/Chapter-02/2.5.4.c.o
+.PHONY : Chapter-02/2.5.4.c.o
+
+Chapter-02/2.5.4.i: Chapter-02/2.5.4.c.i
+
+.PHONY : Chapter-02/2.5.4.i
+
+# target to preprocess a source file
+Chapter-02/2.5.4.c.i:
+	$(MAKE) -f CMakeFiles/main254.dir/build.make CMakeFiles/main254.dir/Chapter-02/2.5.4.c.i
+.PHONY : Chapter-02/2.5.4.c.i
+
+Chapter-02/2.5.4.s: Chapter-02/2.5.4.c.s
+
+.PHONY : Chapter-02/2.5.4.s
+
+# target to generate assembly for a file
+Chapter-02/2.5.4.c.s:
+	$(MAKE) -f CMakeFiles/main254.dir/build.make CMakeFiles/main254.dir/Chapter-02/2.5.4.c.s
+.PHONY : Chapter-02/2.5.4.c.s
+
+Chapter-03/3.12.o: Chapter-03/3.12.c.o
+
+.PHONY : Chapter-03/3.12.o
+
+# target to build an object file
+Chapter-03/3.12.c.o:
+	$(MAKE) -f CMakeFiles/main312.dir/build.make CMakeFiles/main312.dir/Chapter-03/3.12.c.o
+.PHONY : Chapter-03/3.12.c.o
+
+Chapter-03/3.12.i: Chapter-03/3.12.c.i
+
+.PHONY : Chapter-03/3.12.i
+
+# target to preprocess a source file
+Chapter-03/3.12.c.i:
+	$(MAKE) -f CMakeFiles/main312.dir/build.make CMakeFiles/main312.dir/Chapter-03/3.12.c.i
+.PHONY : Chapter-03/3.12.c.i
+
+Chapter-03/3.12.s: Chapter-03/3.12.c.s
+
+.PHONY : Chapter-03/3.12.s
+
+# target to generate assembly for a file
+Chapter-03/3.12.c.s:
+	$(MAKE) -f CMakeFiles/main312.dir/build.make CMakeFiles/main312.dir/Chapter-03/3.12.c.s
+.PHONY : Chapter-03/3.12.c.s
+
+Chapter-03/3.14.o: Chapter-03/3.14.c.o
+
+.PHONY : Chapter-03/3.14.o
+
+# target to build an object file
+Chapter-03/3.14.c.o:
+	$(MAKE) -f CMakeFiles/main314.dir/build.make CMakeFiles/main314.dir/Chapter-03/3.14.c.o
+.PHONY : Chapter-03/3.14.c.o
+
+Chapter-03/3.14.i: Chapter-03/3.14.c.i
+
+.PHONY : Chapter-03/3.14.i
+
+# target to preprocess a source file
+Chapter-03/3.14.c.i:
+	$(MAKE) -f CMakeFiles/main314.dir/build.make CMakeFiles/main314.dir/Chapter-03/3.14.c.i
+.PHONY : Chapter-03/3.14.c.i
+
+Chapter-03/3.14.s: Chapter-03/3.14.c.s
+
+.PHONY : Chapter-03/3.14.s
+
+# target to generate assembly for a file
+Chapter-03/3.14.c.s:
+	$(MAKE) -f CMakeFiles/main314.dir/build.make CMakeFiles/main314.dir/Chapter-03/3.14.c.s
+.PHONY : Chapter-03/3.14.c.s
+
+Chapter-03/3.6.2.o: Chapter-03/3.6.2.c.o
+
+.PHONY : Chapter-03/3.6.2.o
+
+# target to build an object file
+Chapter-03/3.6.2.c.o:
+	$(MAKE) -f CMakeFiles/main362.dir/build.make CMakeFiles/main362.dir/Chapter-03/3.6.2.c.o
+.PHONY : Chapter-03/3.6.2.c.o
+
+Chapter-03/3.6.2.i: Chapter-03/3.6.2.c.i
+
+.PHONY : Chapter-03/3.6.2.i
+
+# target to preprocess a source file
+Chapter-03/3.6.2.c.i:
+	$(MAKE) -f CMakeFiles/main362.dir/build.make CMakeFiles/main362.dir/Chapter-03/3.6.2.c.i
+.PHONY : Chapter-03/3.6.2.c.i
+
+Chapter-03/3.6.2.s: Chapter-03/3.6.2.c.s
+
+.PHONY : Chapter-03/3.6.2.s
+
+# target to generate assembly for a file
+Chapter-03/3.6.2.c.s:
+	$(MAKE) -f CMakeFiles/main362.dir/build.make CMakeFiles/main362.dir/Chapter-03/3.6.2.c.s
+.PHONY : Chapter-03/3.6.2.c.s
+
+Chapter-03/3.9.o: Chapter-03/3.9.c.o
+
+.PHONY : Chapter-03/3.9.o
+
+# target to build an object file
+Chapter-03/3.9.c.o:
+	$(MAKE) -f CMakeFiles/main39.dir/build.make CMakeFiles/main39.dir/Chapter-03/3.9.c.o
+.PHONY : Chapter-03/3.9.c.o
+
+Chapter-03/3.9.i: Chapter-03/3.9.c.i
+
+.PHONY : Chapter-03/3.9.i
+
+# target to preprocess a source file
+Chapter-03/3.9.c.i:
+	$(MAKE) -f CMakeFiles/main39.dir/build.make CMakeFiles/main39.dir/Chapter-03/3.9.c.i
+.PHONY : Chapter-03/3.9.c.i
+
+Chapter-03/3.9.s: Chapter-03/3.9.c.s
+
+.PHONY : Chapter-03/3.9.s
+
+# target to generate assembly for a file
+Chapter-03/3.9.c.s:
+	$(MAKE) -f CMakeFiles/main39.dir/build.make CMakeFiles/main39.dir/Chapter-03/3.9.c.s
+.PHONY : Chapter-03/3.9.c.s
+
+Chapter-04/4.3.o: Chapter-04/4.3.c.o
+
+.PHONY : Chapter-04/4.3.o
+
+# target to build an object file
+Chapter-04/4.3.c.o:
+	$(MAKE) -f CMakeFiles/main43.dir/build.make CMakeFiles/main43.dir/Chapter-04/4.3.c.o
+.PHONY : Chapter-04/4.3.c.o
+
+Chapter-04/4.3.i: Chapter-04/4.3.c.i
+
+.PHONY : Chapter-04/4.3.i
+
+# target to preprocess a source file
+Chapter-04/4.3.c.i:
+	$(MAKE) -f CMakeFiles/main43.dir/build.make CMakeFiles/main43.dir/Chapter-04/4.3.c.i
+.PHONY : Chapter-04/4.3.c.i
+
+Chapter-04/4.3.s: Chapter-04/4.3.c.s
+
+.PHONY : Chapter-04/4.3.s
+
+# target to generate assembly for a file
+Chapter-04/4.3.c.s:
+	$(MAKE) -f CMakeFiles/main43.dir/build.make CMakeFiles/main43.dir/Chapter-04/4.3.c.s
+.PHONY : Chapter-04/4.3.c.s
+
+Chapter-04/4.8.o: Chapter-04/4.8.c.o
+
+.PHONY : Chapter-04/4.8.o
+
+# target to build an object file
+Chapter-04/4.8.c.o:
+	$(MAKE) -f CMakeFiles/main48.dir/build.make CMakeFiles/main48.dir/Chapter-04/4.8.c.o
+.PHONY : Chapter-04/4.8.c.o
+
+Chapter-04/4.8.i: Chapter-04/4.8.c.i
+
+.PHONY : Chapter-04/4.8.i
+
+# target to preprocess a source file
+Chapter-04/4.8.c.i:
+	$(MAKE) -f CMakeFiles/main48.dir/build.make CMakeFiles/main48.dir/Chapter-04/4.8.c.i
+.PHONY : Chapter-04/4.8.c.i
+
+Chapter-04/4.8.s: Chapter-04/4.8.c.s
+
+.PHONY : Chapter-04/4.8.s
+
+# target to generate assembly for a file
+Chapter-04/4.8.c.s:
+	$(MAKE) -f CMakeFiles/main48.dir/build.make CMakeFiles/main48.dir/Chapter-04/4.8.c.s
+.PHONY : Chapter-04/4.8.c.s
+
+Chapter-04/4.9.o: Chapter-04/4.9.c.o
+
+.PHONY : Chapter-04/4.9.o
+
+# target to build an object file
+Chapter-04/4.9.c.o:
+	$(MAKE) -f CMakeFiles/main49.dir/build.make CMakeFiles/main49.dir/Chapter-04/4.9.c.o
+.PHONY : Chapter-04/4.9.c.o
+
+Chapter-04/4.9.i: Chapter-04/4.9.c.i
+
+.PHONY : Chapter-04/4.9.i
+
+# target to preprocess a source file
+Chapter-04/4.9.c.i:
+	$(MAKE) -f CMakeFiles/main49.dir/build.make CMakeFiles/main49.dir/Chapter-04/4.9.c.i
+.PHONY : Chapter-04/4.9.c.i
+
+Chapter-04/4.9.s: Chapter-04/4.9.c.s
+
+.PHONY : Chapter-04/4.9.s
+
+# target to generate assembly for a file
+Chapter-04/4.9.c.s:
+	$(MAKE) -f CMakeFiles/main49.dir/build.make CMakeFiles/main49.dir/Chapter-04/4.9.c.s
+.PHONY : Chapter-04/4.9.c.s
+
+y/p5-fopen.o: y/p5-fopen.c.o
+
+.PHONY : y/p5-fopen.o
+
+# target to build an object file
+y/p5-fopen.c.o:
+	$(MAKE) -f CMakeFiles/mainp5fopen.dir/build.make CMakeFiles/mainp5fopen.dir/y/p5-fopen.c.o
+.PHONY : y/p5-fopen.c.o
+
+y/p5-fopen.i: y/p5-fopen.c.i
+
+.PHONY : y/p5-fopen.i
+
+# target to preprocess a source file
+y/p5-fopen.c.i:
+	$(MAKE) -f CMakeFiles/mainp5fopen.dir/build.make CMakeFiles/mainp5fopen.dir/y/p5-fopen.c.i
+.PHONY : y/p5-fopen.c.i
+
+y/p5-fopen.s: y/p5-fopen.c.s
+
+.PHONY : y/p5-fopen.s
+
+# target to generate assembly for a file
+y/p5-fopen.c.s:
+	$(MAKE) -f CMakeFiles/mainp5fopen.dir/build.make CMakeFiles/mainp5fopen.dir/y/p5-fopen.c.s
+.PHONY : y/p5-fopen.c.s
+
+y/p8-fgetc.o: y/p8-fgetc.c.o
+
+.PHONY : y/p8-fgetc.o
+
+# target to build an object file
+y/p8-fgetc.c.o:
+	$(MAKE) -f CMakeFiles/mainp8getc.dir/build.make CMakeFiles/mainp8getc.dir/y/p8-fgetc.c.o
+.PHONY : y/p8-fgetc.c.o
+
+y/p8-fgetc.i: y/p8-fgetc.c.i
+
+.PHONY : y/p8-fgetc.i
+
+# target to preprocess a source file
+y/p8-fgetc.c.i:
+	$(MAKE) -f CMakeFiles/mainp8getc.dir/build.make CMakeFiles/mainp8getc.dir/y/p8-fgetc.c.i
+.PHONY : y/p8-fgetc.c.i
+
+y/p8-fgetc.s: y/p8-fgetc.c.s
+
+.PHONY : y/p8-fgetc.s
+
+# target to generate assembly for a file
+y/p8-fgetc.c.s:
+	$(MAKE) -f CMakeFiles/mainp8getc.dir/build.make CMakeFiles/mainp8getc.dir/y/p8-fgetc.c.s
+.PHONY : y/p8-fgetc.c.s
+
+y/p8-fgetccount.o: y/p8-fgetccount.c.o
+
+.PHONY : y/p8-fgetccount.o
+
+# target to build an object file
+y/p8-fgetccount.c.o:
+	$(MAKE) -f CMakeFiles/mainp8getccount.dir/build.make CMakeFiles/mainp8getccount.dir/y/p8-fgetccount.c.o
+.PHONY : y/p8-fgetccount.c.o
+
+y/p8-fgetccount.i: y/p8-fgetccount.c.i
+
+.PHONY : y/p8-fgetccount.i
+
+# target to preprocess a source file
+y/p8-fgetccount.c.i:
+	$(MAKE) -f CMakeFiles/mainp8getccount.dir/build.make CMakeFiles/mainp8getccount.dir/y/p8-fgetccount.c.i
+.PHONY : y/p8-fgetccount.c.i
+
+y/p8-fgetccount.s: y/p8-fgetccount.c.s
+
+.PHONY : y/p8-fgetccount.s
+
+# target to generate assembly for a file
+y/p8-fgetccount.c.s:
+	$(MAKE) -f CMakeFiles/mainp8getccount.dir/build.make CMakeFiles/mainp8getccount.dir/y/p8-fgetccount.c.s
+.PHONY : y/p8-fgetccount.c.s
+
+y/p9-fread.o: y/p9-fread.c.o
+
+.PHONY : y/p9-fread.o
+
+# target to build an object file
+y/p9-fread.c.o:
+	$(MAKE) -f CMakeFiles/mainp9fread.dir/build.make CMakeFiles/mainp9fread.dir/y/p9-fread.c.o
+.PHONY : y/p9-fread.c.o
+
+y/p9-fread.i: y/p9-fread.c.i
+
+.PHONY : y/p9-fread.i
+
+# target to preprocess a source file
+y/p9-fread.c.i:
+	$(MAKE) -f CMakeFiles/mainp9fread.dir/build.make CMakeFiles/mainp9fread.dir/y/p9-fread.c.i
+.PHONY : y/p9-fread.c.i
+
+y/p9-fread.s: y/p9-fread.c.s
+
+.PHONY : y/p9-fread.s
+
+# target to generate assembly for a file
+y/p9-fread.c.s:
+	$(MAKE) -f CMakeFiles/mainp9fread.dir/build.make CMakeFiles/mainp9fread.dir/y/p9-fread.c.s
+.PHONY : y/p9-fread.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... mainp9fread"
+	@echo "... mainp8getc"
+	@echo "... mainp5fopen"
+	@echo "... mainp8getccount"
+	@echo "... main48"
+	@echo "... rebuild_cache"
+	@echo "... main49"
+	@echo "... main362"
+	@echo "... main17"
+	@echo "... main254"
+	@echo "... main18"
+	@echo "... main251"
+	@echo "... main314"
+	@echo "... main162"
+	@echo "... main19"
+	@echo "... main39"
+	@echo "... main312"
+	@echo "... main154"
+	@echo "... main163"
+	@echo "... main43"
 	@echo "... main153"
-	@echo "... main143"
-	@echo "... Chapter-01/1.4.3.o"
-	@echo "... Chapter-01/1.4.3.i"
-	@echo "... Chapter-01/1.4.3.s"
 	@echo "... Chapter-01/1.5.3.o"
 	@echo "... Chapter-01/1.5.3.i"
 	@echo "... Chapter-01/1.5.3.s"
+	@echo "... Chapter-01/1.5.4.o"
+	@echo "... Chapter-01/1.5.4.i"
+	@echo "... Chapter-01/1.5.4.s"
+	@echo "... Chapter-01/1.6.2.o"
+	@echo "... Chapter-01/1.6.2.i"
+	@echo "... Chapter-01/1.6.2.s"
+	@echo "... Chapter-01/1.6.3.o"
+	@echo "... Chapter-01/1.6.3.i"
+	@echo "... Chapter-01/1.6.3.s"
+	@echo "... Chapter-01/1.7.o"
+	@echo "... Chapter-01/1.7.i"
+	@echo "... Chapter-01/1.7.s"
+	@echo "... Chapter-01/1.8.o"
+	@echo "... Chapter-01/1.8.i"
+	@echo "... Chapter-01/1.8.s"
+	@echo "... Chapter-01/1.9.o"
+	@echo "... Chapter-01/1.9.i"
+	@echo "... Chapter-01/1.9.s"
+	@echo "... Chapter-02/2.5.1.o"
+	@echo "... Chapter-02/2.5.1.i"
+	@echo "... Chapter-02/2.5.1.s"
+	@echo "... Chapter-02/2.5.4.o"
+	@echo "... Chapter-02/2.5.4.i"
+	@echo "... Chapter-02/2.5.4.s"
+	@echo "... Chapter-03/3.12.o"
+	@echo "... Chapter-03/3.12.i"
+	@echo "... Chapter-03/3.12.s"
+	@echo "... Chapter-03/3.14.o"
+	@echo "... Chapter-03/3.14.i"
+	@echo "... Chapter-03/3.14.s"
+	@echo "... Chapter-03/3.6.2.o"
+	@echo "... Chapter-03/3.6.2.i"
+	@echo "... Chapter-03/3.6.2.s"
+	@echo "... Chapter-03/3.9.o"
+	@echo "... Chapter-03/3.9.i"
+	@echo "... Chapter-03/3.9.s"
+	@echo "... Chapter-04/4.3.o"
+	@echo "... Chapter-04/4.3.i"
+	@echo "... Chapter-04/4.3.s"
+	@echo "... Chapter-04/4.8.o"
+	@echo "... Chapter-04/4.8.i"
+	@echo "... Chapter-04/4.8.s"
+	@echo "... Chapter-04/4.9.o"
+	@echo "... Chapter-04/4.9.i"
+	@echo "... Chapter-04/4.9.s"
+	@echo "... y/p5-fopen.o"
+	@echo "... y/p5-fopen.i"
+	@echo "... y/p5-fopen.s"
+	@echo "... y/p8-fgetc.o"
+	@echo "... y/p8-fgetc.i"
+	@echo "... y/p8-fgetc.s"
+	@echo "... y/p8-fgetccount.o"
+	@echo "... y/p8-fgetccount.i"
+	@echo "... y/p8-fgetccount.s"
+	@echo "... y/p9-fread.o"
+	@echo "... y/p9-fread.i"
+	@echo "... y/p9-fread.s"
 .PHONY : help
 
 

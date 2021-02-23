@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/sunyuchuan/go/src/github.com/sonnary/apue/Chapter-01/1.4.3.c" "/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o"
+  "/Users/sunyuchuan/go/src/github.com/sonnary/apue/y/p5-fopen.c" "/Users/sunyuchuan/go/src/github.com/sonnary/apue/cmake-build-debug/CMakeFiles/main143.dir/y/p5-fopen.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

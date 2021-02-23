@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main143.dir/Chapter-01/1.4.3.c.o"
+  "CMakeFiles/main143.dir/y/p5-fopen.c.o"
   "main143"
   "main143.pdb"
 )
